@@ -5,6 +5,18 @@
       <button v-on:click="counter += 1">+1</button>
       <p>Кнопка выше была нажата {{ counter }} раз</p>
     </div>
+
+    <v-btn
+        class="mx-2"
+        fab
+        dark
+        small
+        color="pink"
+    >
+      <v-icon dark>
+        mdi-heart
+      </v-icon>
+    </v-btn>
     </v-container>
 </template>
 
