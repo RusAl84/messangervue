@@ -31,9 +31,6 @@
           </v-btn>
         </div>
       </v-card-text>
-
-
-
     </v-card>
 
   </v-container>
